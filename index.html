@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>7 zasad testowania</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="con">
+        <header>
+            <h1>7 zasad testowania</h1>
+            <nav>
+                <ul>
+                    <li><a href="./index.html">Strona główna</a></li>
+                    <li><a href="./contact.html">Kontakt</a></li>
+                    <li><a href="./other.html">Inne</a></li>  
+                </ul>
+              </nav>
+        </header>
+        <div class="content">
+            <main>
+                <section class="articles">
+                    <h2>Ważne aspekty testowania - 7 zasad</h2>
+                    <article>
+                        <h3>Testowanie ujawnia usterki, ale nie może dowieść ich braku
+                        </h3>
+                        <p>Testowanie może wykazać obecność defektów, ale nie może dowieść, że oprogramowanie jest od nich wolne. Tym samym testowanie zmniejsza prawdopodobieństwo, że w oprogramowaniu pozostaną niewykryte defekty, ale sam fakt niewykrycia defektów nie stanowi dowodu poprawności działania oprogramowania.
+    
+                        </p>
+                    </article>
+                    <article>
+                        <h3>Testowanie gruntowne jest niemożliwe
+                        </h3>
+                        <p>Przetestowanie wszystkiego (tj. wszystkich kombinacji danych wejściowych i warunków wstępnych) jest możliwe tylko w najprostszych przypadkach. W związku z tym, zamiast podejmować próbę testowania gruntownego, należy odpowiednio ukierunkować wysiłki związane z testowaniem na zastosowanie analizy ryzyka, technik testowania i priorytetyzacji.
+    
+                        </p>
+                    </article>
+                    <article>
+                        <h3>Wczesne testowanie oszczędza czas i pieniądze
+                        </h3>
+                        <p>Aby wcześnie wykryć defekty, należy rozpocząć testowanie statyczne i dynamiczne na jak najwcześniejszym etapie cyklu życia oprogramowania. Wczesne testowanie jest niekiedy nazywane „przesunięciem w lewo” (ang. shift left). Wykonywanie testów na wczesnym etapie cyklu życia oprogramowania pozwala ograniczyć lub wyeliminować kosztowne zmiany.
+    
+                        </p>
+                    </article>
+                    <article>
+                        <h3>Kumulowanie się defektów
+                        </h3>
+                        <p>Zwykle większość defektów wykrytych podczas testowania przed przekazaniem oprogramowania do eksploatacji lub większość awarii występujących w fazie eksploatacji występuje lub ma swoje źródło w niewielkiej liczbie modułów. W rezultacie przewidywane skupiska defektów i skupiska defektów faktycznie zaobserwowane na etapie testowania lub eksploatacji są ważnym elementem analizy ryzyka, którą przeprowadza się w celu odpowiedniego ukierunkowania wysiłków związanych z testowaniem (o czym wspomniano w zasadzie nr 2.).
+    
+                        </p>
+                    </article>
+                    <article>
+                        <h3>Paradoks pestycydów
+                        </h3>
+                        <p>Ciągłe powtarzanie tych samych testów prowadzi do sytuacji, w której przestają one w pewnym momencie wykrywać nowe defekty. Aby móc wykrywać nowe defekty, może być konieczne zmodyfikowanie dotychczasowych testów i danych testowych, a także napisanie nowych testów. Niezmieniane testy tracą z czasem zdolność do wykrywania defektów, podobnie jak pestycydy po pewnym czasie nie są zdolne do eliminowania szkodników. W niektórych przypadkach — takich jak automatyczne testowanie regresji — paradoks pestycydów może być korzystny, ponieważ pozwala potwierdzić, że liczba defektów związanych z regresją jest niewielka.
+    
+                        </p>
+                    </article>
+                    <article>
+                        <h3>Testowanie zależy od kontekstu
+                        </h3>
+                        <p>Testowanie wykonuje się w różny sposób w różnych kontekstach. Na przykład oprogramowanie sterujące systemami przemysłowymi, które jest krytyczne ze względów bezpieczeństwa, testuje się inaczej niż aplikację mobilną sklepu internetowego. Innym przykładem może być odmienny sposób przeprowadzania testów w projektach zwinnych i w tych prowadzonych zgodnie z modelem sekwencyjnym cyklu życia.
+    
+                        </p>
+                    </article>
+                    <article>
+                        <h3>Przekonanie o braku błędów jest błędem
+                        </h3>
+                        <p>Niektóre organizacje oczekują, że testerzy będą w stanie uruchomić wszystkie możliwe testy i wykryć wszystkie możliwe defekty, ale powyższe zasady (odpowiednio nr 2 i 1) pokazują, że jest to niemożliwe. Co więcej, błędnym jest przekonanie, że samo znalezienie i naprawienie dużej liczby defektów zapewni pomyślne wdrożenie systemu. Na przykład bardzo dokładne testowanie wszystkich wyspecyfikowanych wymagań i naprawienie wszystkich znalezionych defektów wciąż może nas nie uchronić od zbudowania systemu trudnego w obsłudze, który nie spełni wymagań i oczekiwań użytkowników lub będzie miał gorsze parametry od konkurencyjnych rozwiązań.</p>
+                    </article>
+                </section>
+            </main>
+            <aside>
+                <section class="source">
+                    <h3>Źródło</h3>
+                    <p>Tekst (prawie) w całości pochodzi z sylabusa ISTQB 2018. Zostały z niego usunięte nagłówki. Choć jako źródło wiedzy sylabus może być postrzegany jako zbyt "ciężki" i "toporny", w małych dawkach jest to bardzo wartościowe kompendium wiedzy.
+    
+                    </p>
+                    <p>Wiedza zaczerpnięta ze strony testerzy.pl</p>
+                    <button><a href="https://testerzy.pl/" target="_blank">Więcej</a></button>
+                </section>
+                <figure class="ads">
+                    <img src="./img/baner.jpg" alt="book-ad">
+                    <img src="./img/reklama.png" alt="ad">
+                </figure>
+            </aside>
+        </div>
+        
+        <footer>
+            <span>&copy Kamil Wolnik 5Ti</span>
+        </footer>
+    </div>
+</body>
+</html>
